@@ -6,7 +6,9 @@ Implementation of SARNet for remote sensing scene graph generation based on SGG-
 
 Spatially Anisotropic Reasoning Network (SARNet) is designed for remote sensing scene graph generation, where large-area images contain multiple functional subscenes and predicate semantics are strongly shaped by relative spatial configurations. It introduces Anisotropic Ellipse Influence Propagation (AEIP) to model object-centered spatial influence regions from oriented bounding boxes and suppress noisy long-range interactions, together with Relative Spatial Configuration Attention (RSCA) to enhance geometry-discriminative relation features for predicate prediction.
 
-![motivation.png](demo/motivation.png)
+<p align="center">
+  <img src="demo/motivation.png" alt="motivation" width="60%">
+</p>
 
 ## Installation
 
