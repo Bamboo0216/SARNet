@@ -873,7 +873,7 @@ def train(cfg, local_rank, distributed, logger, debug=False,use_GAN = False,mmcf
         
         val_result = None 
         if iteration % cfg.SOLVER.VAL_PERIOD == 0:  # 
-             val_result = run_val(cfg, model, val_data_loaders, distributed, logger,output_folder = cfg.outpath)
+             val_result = run_val(cfg, model, val_data_loaders, distributed, logger,output_folder = cfg.val_outpath)
      
 
         if cfg.SOLVER.SCHEDULE.TYPE == "WarmupReduceLROnPlateau":
