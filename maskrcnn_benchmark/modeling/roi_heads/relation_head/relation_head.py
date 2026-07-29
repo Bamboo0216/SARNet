@@ -30,7 +30,6 @@ from maskrcnn_benchmark.config import cfg
 import scipy.io as sio
 
 from .utils_motifs import  to_onehot
-from .utils_surroundings import proxy_cluster
 from mmrotate.core.visualization import imshow_det_rbboxes
 
 
