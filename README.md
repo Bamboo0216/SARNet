@@ -1,6 +1,6 @@
 # SARNet
 
-Implementation of SARNet for remote sensing scene graph generation based on SGG-ToolKit.
+Implementation of TGRS2026-SARNet for remote sensing scene graph generation based on SGG-ToolKit.
 
 ## Introduction
 
